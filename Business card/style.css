@@ -1,0 +1,40 @@
+body {
+    padding-top:50px;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 8px;
+    
+}
+
+.card {
+    
+    width: 400px;
+    margin: 0px auto ;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-bottom: 5px solid #d8cefe;
+    background-color: #ddebf8;
+    border-radius: 5px;
+    box-shadow:5px 10px #f0f0f0;
+    
+    
+}
+
+.card:hover{
+    background-color: darkslategray;
+    transition: 500ms;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    background: crimson;
+    border-radius: 100%;
+   margin: 40px auto; 
+}
